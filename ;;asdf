@@ -1,0 +1,106 @@
+[33mcommit 6da0aaa32a222a8a6c0576b6643a700b7a3dd678[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Diego Gomes <gomes.diego@hotmail.com>
+Date:   Tue Dec 17 14:00:37 2019 -0300
+
+    AlteraÃ§Ã£o realizada no linux
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 4867764..427a6a2 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,9 +8,9 @@[m
+ 		<li>Vagrant</li>[m
+ 		<li>Docker</li>[m
+ 		<li>Ansible</li>[m
+[31m-		<li>Integração Contínua</li>[m
+[32m+[m		[32m<li>Integração Contínua curso da alura</li>[m
+ 	</ul>[m
+ </BODY>[m
+ [m
+ [m
+[31m-</HTML>[m
+\ No newline at end of file[m
+[32m+[m[32m</HTML>[m
+
+[33mcommit c8e8f6c9bda834b296511326c6a38c9adf796757[m[33m ([m[1;31mservidor-git/master[m[33m)[m
+Author: Diego Gomes <gomes.diego@hotmail.com>
+Date:   Tue Dec 17 12:42:09 2019 -0300
+
+    Adicionando o arquivo gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..84f48a9[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconfig/web.config[m
+\ No newline at end of file[m
+
+[33mcommit 7e11862d68e9b3df71342691266a7f16f1ca6d92[m
+Author: Diego Gomes <gomes.diego@hotmail.com>
+Date:   Tue Dec 17 12:16:52 2019 -0300
+
+    RemoÃ§Ã£o de linhas vazias
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 784bae3..4867764 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,5 +1,4 @@[m
+ <HTML>[m
+[31m-[m
+ <HEAD> [m
+  <title> Cursos Alura </title>[m
+ </HEAD>[m
+
+[33mcommit f4d92c33da733ebada44ac93bec3756d80f97e32[m
+Author: Diego do Nascimento Gomes <gomes.diego1989@gmail.com>
+Date:   Tue Dec 17 11:54:16 2019 -0300
+
+    RemoÃ§Ã£o do metadata
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 757fa88..784bae3 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,7 +1,6 @@[m
+ <HTML>[m
+ [m
+ <HEAD> [m
+[31m- <meta charset="UTF-8">[m
+  <title> Cursos Alura </title>[m
+ </HEAD>[m
+ [m
+
+[33mcommit 2c691fbd683160b942f07a1f250de744a7cf4245[m
+Author: Diego do Nascimento Gomes <gomes.diego1989@gmail.com>
+Date:   Tue Dec 17 11:51:01 2019 -0300
+
+    Meu primeiro arquivo no git
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..757fa88[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,18 @@[m
+[32m+[m[32m<HTML>[m
+[32m+[m
+[32m+[m[32m<HEAD>[m[41m [m
+[32m+[m[32m <meta charset="UTF-8">[m
+[32m+[m[32m <title> Cursos Alura </title>[m
+[32m+[m[32m</HEAD>[m
+[32m+[m
+[32m+[m[32m<BODY>[m
+[32m+[m	[32m<ul>[m
+[32m+[m		[32m<li>Vagrant</li>[m
+[32m+[m		[32m<li>Docker</li>[m
+[32m+[m		[32m<li>Ansible</li>[m
+[32m+[m		[32m<li>Integração Contínua</li>[m
+[32m+[m	[32m</ul>[m
+[32m+[m[32m</BODY>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</HTML>[m
+\ No newline at end of file[m
